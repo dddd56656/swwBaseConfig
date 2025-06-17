@@ -1,15 +1,14 @@
+klock:
+  address: 127.0.0.1:6379      # IP:port，必填
+  connectionType: standalone   # standalone / sentinel / cluster
+  database: 0                  # 可选
+  # password: yourPass         # 有密码时写，没有直接删掉
+
+
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.25.101:3306/edu_ad?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
     password: Root@2024
-# Redis + Klock
-klock:
-  redisson:
-    single-server:
-      address: "redis://127.0.0.1:6379"
-      database: 0
-      # password: yourPass
-    
     
