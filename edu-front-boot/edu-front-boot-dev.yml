@@ -27,14 +27,14 @@ spring:
     grant_type: password
     refresh_grant_type: refresh_token
   rabbitmq:
-    host: 113.31.119.154
+    host: localhost
     port: 5672
     username: root
     password: 123456
   klock:
-    address: 113.31.105.128:6379
+    address: localhost:6379
   redis:
-    host: 113.31.105.128
+    host: localhost
     port: 6379
     timeout: 20000
     pool:
@@ -45,7 +45,7 @@ spring:
     password:
 
 zookeeper:
-  address: 113.31.105.128:2181
+  address: localhost:2181
 cloud:
   sentinel:
     transport:

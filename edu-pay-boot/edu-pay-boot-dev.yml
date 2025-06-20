@@ -4,18 +4,18 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://113.31.119.154:3306/edu_pay?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: edurw
-    password: edurw
+    url: jdbc:mysql://localhost:3306/edu_pay?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: Root@2024
   rabbitmq:
-    host: 113.31.119.154
+    host: localhost
     port: 5672
     username: root
     password: 123456
   klock:
-    address: 113.31.105.128:6379
+    address: localhost:6379
   redis:
-    host: 113.31.105.128
+    host: localhost
     port: 6379
     timeout: 20000
     pool:
@@ -26,7 +26,7 @@ spring:
     password:
 
 rocketmq:
-  name-server: 113.31.105.128:9876
+  name-server: localhost:9876
   producer:
     group: edu_group
   consumer:

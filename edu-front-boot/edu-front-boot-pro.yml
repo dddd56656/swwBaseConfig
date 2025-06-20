@@ -49,7 +49,7 @@ zookeeper:
 cloud:
   sentinel:
     transport:
-      dashboard: 113.31.105.128:8080
+      dashboard: localhost:8080
 
 management:
   endpoints:

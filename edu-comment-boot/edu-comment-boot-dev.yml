@@ -5,12 +5,12 @@ spring:
   data:
     mongodb:
       database: edu_comment
-      host: 113.31.105.128
+      host: localhost
       port: 27017
   klock:
-    address: 113.31.105.128:6379
+    address: localhost:6379
   rabbitmq:
-    host: 113.31.119.154
+    host: localhost
     port: 5672
     username: root
     password: 123456
