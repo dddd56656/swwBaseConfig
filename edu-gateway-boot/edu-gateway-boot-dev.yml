@@ -3,14 +3,14 @@ server:
 
 spring:
   rabbitmq:
-    host: localhost
+    host: 127.0.0.1
     port: 5672
     username: root
     password: 123456
   klock:
-    address: localhost:6379
+    address: 127.0.0.1:6379
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
     timeout: 5000
     lettuce:
@@ -100,7 +100,7 @@ jetcache:
         minIdle: 5
         maxIdle: 20
         maxTotal: 50
-      host: localhost
+      host: 127.0.0.1
       port: 6379
 
 #网关白名单，无需要签权url

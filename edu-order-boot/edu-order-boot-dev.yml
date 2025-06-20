@@ -10,7 +10,7 @@ spring:
                 driver-class-name: com.mysql.jdbc.Driver
                 username: root
                 password: Root@2024
-                url: jdbc:mysql://localhost:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+                url: jdbc:mysql://127.0.0.1:3306/edu_order?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
                 filters: stat,wall,log4j
                 maxActive: 20
                 initialSize: 1
@@ -49,14 +49,14 @@ spring:
                         # 是否在启动时检查分表元数据一致性
                         enabled: false
   rabbitmq:
-    host: localhost
+    host: 127.0.0.1
     port: 5672
     username: root
     password: 123456
   klock:
-    address: localhost:6379
+    address: 127.0.0.1:6379
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
     timeout: 20000
     pool:
@@ -67,7 +67,7 @@ spring:
     password:
 
 rocketmq:
-  name-server: localhost:9876
+  name-server: 127.0.0.1:9876
   producer:
     group: edu_group
   consumer:

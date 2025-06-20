@@ -4,18 +4,18 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/edu_course?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://127.0.0.1:3306/edu_course?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root
     password: Root@2024
   rabbitmq:
-    host: localhost
+    host: 127.0.0.1
     port: 5672
     username: root
     password: 123456
   klock:
-    address: localhost:6379
+    address: 127.0.0.1:6379
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
     timeout: 20000
     pool:
@@ -25,7 +25,7 @@ spring:
       max-wait: -1
     password:
 rocketmq:
-  name-server: localhost:9876
+  name-server: 127.0.0.1:9876
   producer:
     group: edu_group
   consumer:
