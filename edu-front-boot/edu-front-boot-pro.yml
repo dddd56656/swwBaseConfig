@@ -115,14 +115,14 @@ edu:
     enable: true
     base:
       # 扫描的包，多个包使用逗号隔开
-      package: com.lagou.edu
+      package: com.sww.edu
     contact:
-      email: leo@lagou.com
-      name: leo
-      url: http://edufront.lagou.com
+      email: sww@sww.com
+      name: sww
+      url: http://edufront.sww.com
     description:
     title: ${spring.application.name} API Documents
-    url: http://edufront.lagou.com
+    url: http://edufront.sww.com
     version: 0.0.1
     groupName: edu-front-boot
     # 自定义参数配置，可配置N个

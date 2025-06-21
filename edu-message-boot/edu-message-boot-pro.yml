@@ -44,7 +44,7 @@ rocketmq:
     group: edu_group
 
 webSocket:
-  origin: http://edufront.lagou.com
+  origin: http://edufront.sww.com
   context: /push
   port: 8899
 

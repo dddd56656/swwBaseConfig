@@ -83,7 +83,7 @@ spring:
 jetcache:
   statIntervalMinutes: 1
   areaInCacheName: false
-  hidePackages: com.lagou.edu
+  hidePackages: com.sww.edu
   local:
     # 默认永久本地缓存
     default:

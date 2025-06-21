@@ -32,7 +32,7 @@ spring:
 jetcache:
   statIntervalMinutes: 15
   areaInCacheName: false
-  hidePackages: com.lagou.edu
+  hidePackages: com.sww.edu
   local:
     # 默认2小时本地缓存
     default:
@@ -99,14 +99,14 @@ edu:
     enable: true
     base:
       # 扫描的包，多个包使用逗号隔开
-      package: com.lagou.edu
+      package: com.sww.edu
     contact:
-      email: leo@lagou.com
-      name: leo
-      url: http://eduboss.lagou.com
+      email: sww@sww.com
+      name: sww
+      url: http://eduboss.sww.com
     description:
     title: edu-boss-boot API Documents
-    url: http://eduboss.lagou.com
+    url: http://eduboss.sww.com
     version: 0.0.1
     groupName: edu-boss-boot
     # 自定义参数配置，可配置N个
